@@ -1,0 +1,172 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    /* background: linear-gradient(90deg, rgba(4,4,8,1) 0%, rgba(40,40,88,1) 75%, rgba(31,40,42,1) 100%); */
+    /* background: linear-gradient(90deg, rgba(5,5,34,1) 0%, rgba(22,22,77,1) 37%, rgba(11,16,61,1) 65%, rgba(5,3,23,0.9248949579831933) 100%); */
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(37,37,83,1) 37%, rgba(11,19,93,1) 65%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+
+.navbars{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    
+}
+
+.navbarimg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+/* .navbarimg h2{
+    font-size: 25px;
+    font-weight: 500;
+} */
+.navbarimg a{
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none !important;
+    color: white;
+}
+
+.leftnav{
+    display: flex;
+    align-items: center;
+}
+
+.navbarimg img{
+    
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.navlist ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.navlist ul li a:hover {
+    color: aliceblue;
+    
+}
+
+.navlist ul a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+.rightnav{
+    display: flex;
+    align-items: center;
+     gap: 10px;
+}
+
+.searchimg {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 252, 252);
+    padding: 5px;
+    border-radius: 5px;
+    gap: 3px;
+
+}
+.searchimg img{
+    height: 20px;
+    width: 20px;
+}
+
+.searchimg input{
+    
+    border: none;
+    outline: none;
+    color:whitesmoke;
+    background-color: transparent;
+}
+
+.theme img{
+   
+        height: 30px;
+        width: 30px; 
+        color: white;  
+}
+
+.rightbtn button{
+    background-color: #0775db;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: white;
+
+}
+
+.banner{
+    text-align: center;
+   
+}
+
+.banner a{
+    color: #0775db;
+}
+
+/* - -----------------------------------------------------------hero-section--------------------------------------------------------------- */
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.mainimg img{
+    height: 550px;
+    width: 800px;
+}
+
+.firstmain p{
+    border:1px solid rgb(74, 0, 247);
+    border-radius: 20px;
+    padding: 10px 20px;
+display: inline;
+background-color: #0687ff4f;
+}
+
+.secondmain h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.btnmain button{
+    background-color: #0775db;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    color: white;
+    font-size: 20px;
+}
+.lastpara p {
+    font-size: 14px;
+    font: 500;
+}
+
+.lastpara p a{
+    color: #0775db;
+}
+
+.lastpara p:nth-child(2){
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+}
+
