@@ -105,6 +105,12 @@ body{
 
 }
 
+.rightbtn button:hover{
+    
+        color: aliceblue;
+        cursor: pointer;
+}
+
 .banner{
     text-align: center;
    
@@ -149,6 +155,11 @@ background-color: #0687ff4f;
     color: white;
     font-size: 20px;
 }
+
+.btnmain button{
+    cursor: pointer;
+}
+
 .lastpara p {
     font-size: 14px;
     font: 500;
