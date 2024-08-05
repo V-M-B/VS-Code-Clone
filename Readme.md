@@ -30,4 +30,4 @@ To set up this project locally, follow these steps:
 
    git clone https://github.com/your-username/vscode-landing-page-redesign.git
 
-   ## Website-Link: https://vs-code-landing-page-redesign.netlify.app/
+   ## Website-Link: https://vs-code-landing-page-redesign.netlify.app
